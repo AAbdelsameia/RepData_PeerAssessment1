@@ -23,7 +23,7 @@ str(activity)
 ```
 
 ```r
-activity$date <- as.Date(activity$date, "%Y-%m-%d")
+activity$date <- as.Date(activity$date, "%Y-%m-%d") 
 ```
 
 ## What is mean total number of steps taken per day?

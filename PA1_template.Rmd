@@ -12,7 +12,7 @@ library(ggplot2)
 library(lattice)
 activity <- read.csv("activity.csv")
 str(activity)
-activity$date <- as.Date(activity$date, "%Y-%m-%d")
+activity$date <- as.Date(activity$date, "%Y-%m-%d") 
 ```
 
 ## What is mean total number of steps taken per day?
